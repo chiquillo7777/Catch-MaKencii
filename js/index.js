@@ -1,4 +1,4 @@
-const targets =  document.querySelectorAll('.target')
+  const targets =  document.querySelectorAll('.target')
 const scoreDisplay = document.querySelector('#score')
 const container = document.querySelector('.container')
 const play = document.querySelector('#play')
@@ -8,6 +8,9 @@ let duration = timeSelector.value;
 let timeUp = false
 let lastTarget
 let score = 0
+showInstruccions = () =>{
+  alert("Presiona El button de play arriba a la izquierda y trata de atrapar a Makencii :)");
+}
 
 scoreDisplay.textContent = 0
 
